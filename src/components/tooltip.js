@@ -15,15 +15,12 @@ function ToolTip(props) {
       );
 
   return (
-    
     <OverlayTrigger
         placement={props.position}
         overlay={_tooltipContent}
     >
         <Button variant="primary" >Hover over me</Button>
     </OverlayTrigger>
-
-    
   )
 }
 
